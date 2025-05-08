@@ -1,0 +1,140 @@
+/*
+Template Name: Cricket Club
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************center_home****************/
+.carousel-caption {
+  background-color: var(--bg_back);
+  bottom: 10%;
+  left: 10%;
+  width: 40%;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid var(--caption_border);
+}
+/*********************center_home_end****************/
+
+/*********************upcoming****************/
+.upcoming_1_left1_inner1 {
+  padding-top: 20%;
+}
+/*********************upcoming_end****************/
+
+/*********************high****************/
+.high_2_right1::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+.high_2_right1::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+  border: 3px solid #f5f5f5;
+}
+.high_2_right1::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+.high_2_right1 {
+  height: 486px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #8b8f20 #f5f5f5;
+}
+/*********************high_end****************/
+
+/*********************player****************/
+.player_1_inner2 .role {
+  min-width: 75px;
+  text-align: center;
+  border-right: 5px solid var(--bs-red);
+}
+/*********************player_end****************/
+
+@media screen and (max-width: 767px) {
+  .carousel-caption {
+    position: static !important;
+    width: 100%;
+    background: #111;
+  }
+  .carousel-caption h6 {
+    text-align: center;
+  }
+  .carousel-caption br {
+    display: none;
+  }
+  .upcoming_1_left {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .upcoming_1_left1_inner img {
+    width: 100%;
+  }
+  .leader_1 .justify-content-end {
+    justify-content: flex-start !important;
+    margin-top: 15px;
+  }
+  .high_2_right {
+    margin-top: 15px;
+  }
+  .high_2_right1 img {
+    width: 100px;
+  }
+  .result_1_inner {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .player_1_inner {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .player_1_inner1 img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .upcoming_1_left2 li {
+    font-size: 13px;
+  }
+  .upcoming_1_left {
+    margin-top: 15px !important;
+  }
+  .leader_1 .justify-content-end {
+    justify-content: flex-end !important;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .center_home img {
+    min-height: 600px;
+  }
+  .carousel-caption {
+    width: 50%;
+  }
+  .upcoming_1_left2 li {
+    font-size: 13px;
+  }
+  .high_2_right1 img {
+    width: 80px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .high_2_right1 img {
+    width: 80px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1300px) {
+}
+@media (min-width: 1400px) and (max-width: 2000px) {
+  .high_2_right1 {
+    height: 565px;
+  }
+}
